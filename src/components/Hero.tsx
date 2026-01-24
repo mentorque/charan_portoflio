@@ -60,9 +60,7 @@ const Hero = () => {
           </p>
 
           <p className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
-            Cloud Engineer with ~3 years of experience owning and delivering production-grade AWS systems for enterprise 
-            platforms serving 100K+ users. Strong in CI/CD, containerisation, infrastructure automation, and cloud security. 
-            Stamp 1G – no sponsorship required.
+            Certified engineer working across cloud platforms, data, and applied AI to build systems that are reliable, scalable, and easy to operate. I take ownership of problems end to end, focus on automation and data driven decisions, and aim to deliver solutions that create measurable, real world impact.
           </p>
 
           {/* Contact Info */}

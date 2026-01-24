@@ -33,32 +33,28 @@ const About = () => {
           <h2 className="text-4xl lg:text-5xl font-bold mb-6 text-white">
             About <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">Me</span>
           </h2>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            Cloud Engineer with ~3 years of experience owning and delivering production-grade AWS systems for enterprise 
-            platforms serving 100K+ users. Strong in CI/CD, containerisation, infrastructure automation, and cloud security, 
-            with hands-on Python and SQL to improve system reliability and efficiency. Stamp 1G – no sponsorship required.
-          </p>
         </div>
 
         <div className="max-w-4xl mx-auto mb-16">
-          {/* Professional Summary */}
+          {/* About Me */}
           <Card className="card-gradient border-primary/20 shadow-elevated">
             <CardContent className="p-8">
-              <h3 className="text-2xl font-bold mb-4 text-gradient">Professional Summary</h3>
-              <div className="space-y-4 text-muted-foreground">
+              <h3 className="text-2xl font-bold mb-4 text-gradient">About Me</h3>
+              <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  Cloud Engineer with ~3 years of experience owning and delivering 
-                  <span className="text-primary font-semibold"> production-grade AWS systems</span> for enterprise 
-                  platforms serving <span className="text-primary font-semibold">100K+ users</span>.
+                  Based in Ireland, I am a data and cloud professional with nearly three years of experience working on enterprise scale platforms serving over 100000 users.
                 </p>
                 <p>
-                  Strong in <span className="text-accent font-semibold">CI/CD, containerisation, infrastructure automation, 
-                  and cloud security</span>, with hands-on Python and SQL to improve system reliability and efficiency.
+                  My background combines data analytics, cloud engineering, and applied AI. I work extensively with SQL and Python to analyse large datasets, build reliable data pipelines, and translate complex data into clear and actionable insights for business and technical stakeholders. Alongside analytics, I have hands on experience with AWS and scalable data processing using Apache Spark.
                 </p>
                 <p>
-                  Completed <span className="text-accent font-semibold">MSc in Computing (Data Analytics)</span> at Dublin City University. 
-                  <span className="text-primary font-semibold"> Stamp 1G – no sponsorship required</span>. Ready to contribute to 
-                  innovative teams and deliver scalable, high-performance cloud solutions.
+                  At Capgemini, I worked across analytics and operations focused projects, analysing usage patterns, performance metrics, and system behaviour to improve efficiency, reliability, and data driven decision making. My work supported KPI tracking, reporting automation, and analytics ready data modelling.
+                </p>
+                <p>
+                  During my Master's in Data Analytics at Dublin City University, I focused on AI driven analysis, working on projects involving large scale text data, risk analysis, and structured data transformation. I am particularly interested in applying data and AI in practical real world contexts.
+                </p>
+                <p>
+                  I am authorised to work in Ireland under Stamp 1G with no sponsorship required and I am seeking opportunities as a Data Analyst or Analytics focused Engineer.
                 </p>
               </div>
             </CardContent>
