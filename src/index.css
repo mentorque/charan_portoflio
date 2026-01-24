@@ -61,6 +61,7 @@ All colors MUST be HSL.
     @apply bg-background text-foreground antialiased;
     font-feature-settings: "cv11", "ss01";
     font-variation-settings: "opsz" 32;
+    zoom: 0.8;
   }
 
   /* Custom Utility Classes */
