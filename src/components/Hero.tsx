@@ -31,7 +31,7 @@ const Hero = () => {
       {/* Enhanced overlay for better text readability */}
       <div className="absolute inset-0 bg-black/60 backdrop-blur-sm"></div>
 
-      <div className="container mx-auto px-6 text-center relative z-10">
+      <div className="container mx-auto px-6 text-center relative z-10 pt-24 md:pt-20">
         <div className="animate-fade-in">
           {/* Profile Image */}
           <div className="mb-8 flex justify-center">
