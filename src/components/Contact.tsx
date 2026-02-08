@@ -8,20 +8,20 @@ const Contact = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       label: "Email",
-      value: "charangrcareers@gmail.com",
-      href: "mailto:charangrcareers@gmail.com",
+      value: "saicharanchetpellydev@gmail.com",
+      href: "mailto:saicharanchetpellydev@gmail.com",
       primary: true
     },
     {
       icon: <Phone className="w-6 h-6" />,
       label: "Phone",
-      value: "+353 89 220 0417",
-      href: "tel:+353892200417"
+      value: "+91 9704276705",
+      href: "tel:+919704276705"
     },
     {
       icon: <MapPin className="w-6 h-6" />,
       label: "Location",
-      value: "Dublin, Ireland",
+      value: "Hyderabad, India",
       href: "#"
     }
   ];
@@ -30,7 +30,7 @@ const Contact = () => {
     {
       icon: <Linkedin className="w-5 h-5" />,
       label: "LinkedIn",
-      href: "https://linkedin.com/in/charan-gr",
+      href: "https://www.linkedin.com/in/chetpelly-saicharan/",
       color: "text-blue-500"
     }
   ];
@@ -43,8 +43,8 @@ const Contact = () => {
             Let's <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">Connect</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-            Currently based in Dublin, Ireland. Completed MSc in Computing (Data Analytics) at Dublin City University. 
-            Stamp 1G – no sponsorship required. Open to opportunities in cloud engineering and infrastructure automation.
+            Java Full Stack Developer based in Hyderabad, India. B.Tech in Information Technology from M.V.S.R College of Engineering. 
+            Open to opportunities in full-stack development, microservices, and scalable web applications.
           </p>
         </div>
 
@@ -120,16 +120,16 @@ const Contact = () => {
                     <Badge variant="default" className="text-xs">Available</Badge>
                   </div>
                   <p className="text-sm text-muted-foreground">
-                    Currently open to new opportunities and exciting projects. Stamp 1G – no sponsorship required.
+                    Currently open to new opportunities and exciting projects in full-stack development and microservices.
                   </p>
                 </div>
 
                 <div className="space-y-4">
                   <h4 className="font-semibold text-foreground">Education</h4>
                   <div className="text-sm text-muted-foreground">
-                    <p className="font-medium text-primary">Dublin City University</p>
-                    <p>MSc Computing (Data Analytics)</p>
-                    <p>2024 – 2025 | 2:1 Honours</p>
+                    <p className="font-medium text-primary">M.V.S.R College of Engineering</p>
+                    <p>B.Tech in Information Technology</p>
+                    <p>2019 – 2023</p>
                   </div>
                 </div>
 
@@ -137,11 +137,11 @@ const Contact = () => {
                   <h4 className="font-semibold text-foreground">Interests</h4>
                   <div className="flex flex-wrap gap-2">
                     {[
-                      "Cloud Engineering",
-                      "Infrastructure Automation", 
-                      "CI/CD",
-                      "Production Reliability",
-                      "Data Analytics"
+                      "Spring Boot",
+                      "React",
+                      "Microservices",
+                      "REST APIs",
+                      "Full-Stack Development"
                     ].map((interest, index) => (
                       <Badge key={index} variant="secondary" className="text-xs">
                         {interest}
@@ -156,7 +156,7 @@ const Contact = () => {
                     className="w-full" 
                     asChild
                   >
-                    <a href="mailto:charangrcareers@gmail.com">
+                    <a href="mailto:saicharanchetpellydev@gmail.com">
                       <Mail className="w-4 h-4" />
                       Send Message
                     </a>

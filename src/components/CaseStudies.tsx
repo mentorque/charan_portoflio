@@ -7,25 +7,25 @@ const CaseStudies = () => {
   // Easy to edit: Update this array to add, remove, or modify case studies
   const caseStudies = [
     {
-      title: "CI/CD Pipeline Automation",
-      description: "Designed and maintained automated CI/CD pipelines using Jenkins and GitHub Actions, reducing deployment delays and release failures by 40%.",
-      tools: ["Jenkins", "GitHub Actions", "CI/CD", "Docker", "Kubernetes"],
-      keyInsight: "Reduced deployment delays and release failures by 40% by automating CI/CD pipelines, enabling faster and more reliable production releases.",
-      linkedInUrl: "https://linkedin.com/posts/charan-gorentla-ravi_example-post"
+      title: "SCA V2 & Generic Client Layer for eBay",
+      description: "Designed and implemented Strong Customer Authentication (SCA) V2 flows for eBay Checkout. Built a generic SCA client layer adopted by ~40% of eBay host applications, standardizing authentication behavior and reducing duplicated logic.",
+      tools: ["Java", "Spring Boot", "eBay Checkout", "Payment Flows", "SCA"],
+      keyInsight: "Enabled ~40% adoption across eBay host applications by building a reusable SCA client layer that handled retries, fallbacks, and gateway failures across high-traffic payment workflows.",
+      linkedInUrl: "https://www.linkedin.com/in/chetpelly-saicharan/"
     },
     {
-      title: "Infrastructure as Code with Terraform",
-      description: "Implemented Infrastructure as Code with Terraform, reducing environment inconsistencies and deployment issues across teams.",
-      tools: ["Terraform", "AWS", "Infrastructure as Code", "Provisioning"],
-      keyInsight: "Standardized cloud environments and enabled repeatable provisioning, reducing environment inconsistencies and deployment issues significantly.",
-      linkedInUrl: "https://linkedin.com/posts/charan-gorentla-ravi_example-post"
+      title: "ClickHouse Centralized Logging for Checkout",
+      description: "Enhanced observability of distributed checkout systems by integrating ClickHouse-based centralized logging, enabling faster tracing of cross-service requests.",
+      tools: ["ClickHouse", "Distributed Systems", "Observability", "Logging"],
+      keyInsight: "Reduced root-cause analysis time by ~30% through centralized logging and faster cross-service request tracing.",
+      linkedInUrl: "https://www.linkedin.com/in/chetpelly-saicharan/"
     },
     {
-      title: "Cloud Operations & Production Analytics",
-      description: "Built Python-based data extraction pipelines for service metrics, reducing manual analysis effort by 40% across 14+ cloud services.",
-      tools: ["Python", "Cloud Monitoring", "Grafana", "Data Pipelines", "Metrics Analysis"],
-      keyInsight: "Reduced manual analysis effort by 40% and sustained 99.85% uptime by building automated metrics pipelines and accelerating root-cause analysis.",
-      linkedInUrl: "https://linkedin.com/posts/charan-gorentla-ravi_example-post"
+      title: "eBay Money Back Guarantee (eMBG) Integration",
+      description: "Reduced checkout drop-off by ~5% on mobile web by implementing the eBay Money Back Guarantee experience and integrating it with core checkout and payment flows.",
+      tools: ["React", "eBay Checkout", "Payment Flows", "Mobile Web"],
+      keyInsight: "~5% reduction in checkout drop-off on mobile web through eMBG experience implementation and seamless integration with checkout and payment flows.",
+      linkedInUrl: "https://www.linkedin.com/in/chetpelly-saicharan/"
     }
   ];
 
@@ -37,8 +37,8 @@ const CaseStudies = () => {
             Case <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">Studies</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Real-world projects demonstrating impact in cloud infrastructure, platform engineering, 
-            and production reliability. Detailed explanations available on LinkedIn.
+            Key technical highlights from eBay checkout and payment systems, 
+            demonstrating impact in distributed systems, observability, and full-stack development.
           </p>
         </div>
 

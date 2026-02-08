@@ -1,47 +1,32 @@
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { ExternalLink, TrendingUp, Zap, Brain, Database } from "lucide-react";
+import { ExternalLink, Zap, Database } from "lucide-react";
 
 const Projects = () => {
   const projects = [
     {
-      title: "AI Risk Analysis Platform (Master's Thesis)",
-      description: "Built data pipelines using Python and Spark to process 5,000+ news articles into analytics-ready data. Implemented Spark SQL transformations to aggregate risk indicators for downstream analytics.",
-      icon: <Brain className="w-8 h-8" />,
-      achievements: [
-        {
-          metric: "5,000+ Articles Processed",
-          description: "Built data pipelines using Python and Spark to process 5,000+ news articles into analytics-ready data"
-        },
-        {
-          metric: "Spark SQL Transformations",
-          description: "Implemented Spark SQL transformations to aggregate risk indicators for downstream analytics"
-        }
-      ],
-      technologies: ["Python", "SQL", "APIs", "Apache Spark", "Data Pipelines", "GitHub"],
-      category: "Master's Thesis",
-      gradient: "from-purple-500 to-pink-500",
-      githubUrl: "https://github.com"
-    },
-    {
-      title: "Production Incident Analytics Platform",
-      description: "Analysed incident datasets to track frequency, resolution time, and recurring failure patterns. Modelled relational schemas to support operational reporting and reliable trend analysis.",
+      title: "Seeder - Capital Raising Platform",
+      description: "Designed and implemented a scalable microservices-based backend using Java and Spring Boot to support investor onboarding, deal lifecycle management, and transaction processing for a capital-raising platform.",
       icon: <Database className="w-8 h-8" />,
       achievements: [
         {
-          metric: "Incident Analytics",
-          description: "Analysed incident datasets to track frequency, resolution time, and recurring failure patterns"
+          metric: "Microservices Backend",
+          description: "Scalable microservices-based backend supporting investor onboarding, deal lifecycle management, and transaction processing"
         },
         {
-          metric: "Relational Schema Design",
-          description: "Modelled relational schemas to support operational reporting and reliable trend analysis"
+          metric: "Spring Security with RBAC",
+          description: "Implemented Spring Security with role-based access control (RBAC) to secure sensitive capital-raising workflows, ensuring authorized access to APIs and protecting critical business operations"
+        },
+        {
+          metric: "JUnit & SonarCloud",
+          description: "Improved application reliability and code quality by implementing unit and integration tests with JUnit and enforcing static code analysis using SonarCloud, reducing regressions during feature development"
         }
       ],
-      technologies: ["Python", "PostgreSQL", "SQL Analytics", "Data Modelling", "GitHub"],
-      category: "Personal Project",
-      gradient: "from-blue-500 to-cyan-500",
-      githubUrl: "https://github.com"
+      technologies: ["React", "Spring Boot", "Spring Security", "MySQL"],
+      category: "Capital Raising Platform",
+      gradient: "from-purple-500 to-pink-500",
+      githubUrl: "https://github.com/saicharan-chetpelly/seeder"
     }
   ];
 
@@ -57,8 +42,8 @@ const Projects = () => {
             Featured <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">Projects</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Innovative solutions demonstrating expertise in cloud engineering, 
-            data analytics, and production reliability.
+            Innovative solutions demonstrating expertise in full-stack development, 
+            microservices architecture, and scalable web applications.
           </p>
         </div>
 
@@ -146,12 +131,12 @@ const Projects = () => {
                 Interested in <span className="text-gradient">Collaboration?</span>
               </h3>
               <p className="text-muted-foreground mb-6 text-center">
-                I'm always excited to work on challenging problems in cloud engineering, 
-                infrastructure automation, and production reliability. Let's discuss how we can build something amazing together.
+                I'm always excited to work on challenging problems in full-stack development, 
+                microservices, and scalable web applications. Let's discuss how we can build something amazing together.
               </p>
               <div className="flex justify-center">
                 <Button variant="gradient" size="lg" asChild>
-                  <a href="mailto:charangrcareers@gmail.com">
+                  <a href="mailto:saicharanchetpellydev@gmail.com">
                     Get In Touch
                   </a>
                 </Button>

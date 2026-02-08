@@ -6,55 +6,64 @@ import { Building2, MapPin, Calendar, TrendingUp } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
-      company: "Capgemini Engineering India",
+      company: "Zemoso Technologies",
       position: "Software Engineer",
       location: "India",
-      duration: "Oct 2021 – Sep 2024",
-      logo: "C",
+      duration: "Jan 2024 – Present",
+      logo: "Z",
       projects: [
         {
-          title: "Project 1: Cloud Infrastructure & Platform Engineering",
+          title: "eBay Checkout & Payment Systems",
           achievements: [
             {
-              impact: "40% Reduction in Deployment Delays",
-              description: "Reduced deployment delays and release failures by 40% by designing and maintaining automated CI/CD pipelines using Jenkins and GitHub Actions, enabling faster and more reliable production releases."
+              impact: "SCA V2 Flows for eBay Checkout",
+              description: "Designed and implemented Strong Customer Authentication (SCA) V2 flows for eBay Checkout, handling retries, fallbacks, and gateway failures across high-traffic payment workflows supporting millions of transactions."
             },
             {
-              impact: "99.9% Availability Maintained",
-              description: "Improved system scalability and service reliability by deploying and operating containerised applications using Docker and Kubernetes, consistently maintaining 99.9% availability for production workloads."
+              impact: "~40% Adoption by eBay Host Applications",
+              description: "Enabled adoption by ~40% of eBay host applications by building and maintaining a generic SCA client layer that standardized authentication behavior and reduced duplicated logic."
             },
             {
-              impact: "30% Increase in Operational Efficiency",
-              description: "Increased operational efficiency by 30% by automating repetitive infrastructure and operational tasks using Python and Shell scripting, reducing manual intervention and error rates."
+              impact: "~30% Reduction in Root-Cause Analysis Time",
+              description: "Enhanced observability of distributed checkout systems by integrating ClickHouse-based centralized logging, enabling faster tracing of cross-service requests and reducing root-cause analysis time by ~30%."
             },
             {
-              impact: "Infrastructure as Code Implementation",
-              description: "Reduced environment inconsistencies and deployment issues by implementing Infrastructure as Code with Terraform, enabling repeatable provisioning and standardised cloud environments across teams."
+              impact: "~5% Reduction in Checkout Drop-off",
+              description: "Reduced checkout drop-off by ~5% on mobile web by implementing the eBay Money Back Guarantee (eMBG) experience and integrating it with core checkout and payment flows."
             },
             {
-              impact: "Enhanced Cloud Security",
-              description: "Strengthened cloud security and access controls by configuring IAM, encryption, secrets management, and network security rules, improving compliance and reducing security-related risks."
+              impact: "Deployment Failure Rate: 45% → 6%",
+              description: "Stabilized CI/CD pipelines for checkout-related features by diagnosing and resolving systemic Velocity workflow issues, reducing deployment failure rates from ~45% to ~6% and improving release reliability."
             }
           ],
-          technologies: ["Jenkins", "GitHub Actions", "Docker", "Kubernetes", "Terraform", "Python", "Shell Scripting", "AWS", "IAM"]
-        },
+          technologies: ["Java", "Spring Boot", "Microservices", "ClickHouse", "eBay Checkout", "Payment Flows", "CI/CD", "Velocity"]
+        }
+      ]
+    },
+    {
+      company: "Zemoso Technologies",
+      position: "Associate Software Engineer",
+      location: "India",
+      duration: "Dec 2022 – Dec 2023",
+      logo: "Z",
+      projects: [
         {
-          title: "Project 2: Cloud Operations & Production Analytics",
+          title: "Backend Microservices & React Development",
           achievements: [
             {
-              impact: "99.85% Uptime Sustained",
-              description: "Improved system reliability by analysing metrics across 14+ cloud services, sustaining 99.85% uptime."
+              impact: "Spring Boot Microservices",
+              description: "Engineered Spring Boot-based backend microservices and RESTful APIs using custom DTOs and standardized middleware, enabling reliable inter-service communication and ensuring scalability and high availability."
             },
             {
-              impact: "40% Reduction in Manual Analysis",
-              description: "Reduced manual analysis effort by 40% by building Python-based data extraction pipelines for service metrics."
+              impact: "~35% Reduction in API Integration Defects",
+              description: "Reduced API integration defects by ~35% by centralizing authentication and request/response handling into shared client-server integration layers."
             },
             {
-              impact: "Accelerated Root-Cause Analysis",
-              description: "Accelerated root-cause analysis by aggregating and analysing production metrics to identify recurring failure patterns and performance bottlenecks."
+              impact: "~40% Reduction in UI Development Time",
+              description: "Reduced UI development time by ~40% across multiple modules by architecting a standardized React framework with reusable, high-performance components using Vite and Material UI (MUI)."
             }
           ],
-          technologies: ["Python", "Cloud Monitoring", "Grafana", "Metrics Analysis", "Data Pipelines", "Root-Cause Analysis"]
+          technologies: ["Spring Boot", "RESTful APIs", "React", "Vite", "Material UI", "Microservices"]
         }
       ]
     }
@@ -68,8 +77,8 @@ const Experience = () => {
             Work <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">Experience</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            ~3 years of experience owning and delivering production-grade AWS systems for enterprise 
-            platforms serving 100K+ users with focus on cloud infrastructure, CI/CD, and production reliability.
+            3+ years of experience building high-traffic distributed web applications. 
+            Hands-on experience on enterprise-scale platforms like eBay, contributing to critical checkout and payment flows used by millions of users.
           </p>
         </div>
 

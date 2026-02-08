@@ -41,7 +41,7 @@ const Header = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="text-xl font-bold text-white">
-            Charan Gorentla Ravi
+            Saicharan Chetpelly
           </div>
 
           {/* Desktop Navigation */}
@@ -58,6 +58,9 @@ const Header = () => {
             <button onClick={() => scrollToSection('case-studies')} className="text-gray-300 hover:text-blue-400 transition-colors">
               Case Studies
             </button>
+            <button onClick={() => scrollToSection('achievements')} className="text-gray-300 hover:text-blue-400 transition-colors">
+              Achievements
+            </button>
             <button onClick={() => scrollToSection('education')} className="text-gray-300 hover:text-blue-400 transition-colors">
               Education
             </button>
@@ -68,13 +71,13 @@ const Header = () => {
 
           {/* Contact Info - Desktop */}
           <div className="hidden lg:flex items-center space-x-4">
-            <a href="mailto:charangrcareers@gmail.com" className="text-gray-300 hover:text-blue-400 transition-colors">
+            <a href="mailto:saicharanchetpellydev@gmail.com" className="text-gray-300 hover:text-blue-400 transition-colors">
               <Mail size={18} />
             </a>
-            <a href="tel:+353892200417" className="text-gray-300 hover:text-blue-400 transition-colors">
+            <a href="tel:+919704276705" className="text-gray-300 hover:text-blue-400 transition-colors">
               <Phone size={18} />
             </a>
-            <a href="https://linkedin.com/in/charan-gr" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-blue-400 transition-colors">
+            <a href="https://www.linkedin.com/in/chetpelly-saicharan/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-blue-400 transition-colors">
               <Linkedin size={18} />
             </a>
           </div>
@@ -104,6 +107,9 @@ const Header = () => {
               <button onClick={() => scrollToSection('case-studies')} className="text-gray-300 hover:text-blue-400 transition-colors text-left">
                 Case Studies
               </button>
+              <button onClick={() => scrollToSection('achievements')} className="text-gray-300 hover:text-blue-400 transition-colors text-left">
+                Achievements
+              </button>
               <button onClick={() => scrollToSection('education')} className="text-gray-300 hover:text-blue-400 transition-colors text-left">
                 Education
               </button>
@@ -113,13 +119,13 @@ const Header = () => {
               
               {/* Mobile Contact Icons */}
               <div className="flex items-center space-x-4 pt-4 border-t border-gray-800">
-                <a href="mailto:charangrcareers@gmail.com" className="text-gray-300 hover:text-blue-400 transition-colors">
+                <a href="mailto:saicharanchetpellydev@gmail.com" className="text-gray-300 hover:text-blue-400 transition-colors">
                   <Mail size={18} />
                 </a>
-                <a href="tel:+353892200417" className="text-gray-300 hover:text-blue-400 transition-colors">
+                <a href="tel:+919704276705" className="text-gray-300 hover:text-blue-400 transition-colors">
                   <Phone size={18} />
                 </a>
-                <a href="https://linkedin.com/in/charan-gr" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-blue-400 transition-colors">
+                <a href="https://www.linkedin.com/in/chetpelly-saicharan/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-blue-400 transition-colors">
                   <Linkedin size={18} />
                 </a>
               </div>

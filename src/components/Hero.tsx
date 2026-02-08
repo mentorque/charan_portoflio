@@ -38,8 +38,8 @@ const Hero = () => {
             <div className="relative">
               <div className="w-44 h-44 rounded-full border-4 border-white/20 shadow-xl overflow-hidden">
                 <img
-                  src="/charan-profile.jpg"
-                  alt="Charan Gorentla Ravi"
+                  src="/chetpelly-profile.jpeg"
+                  alt="Saicharan Chetpelly"
                   className="w-full h-full object-cover object-center"
                 />
               </div>
@@ -49,31 +49,34 @@ const Hero = () => {
 
           {/* Main Content */}
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            <span className="block text-white">Charan Gorentla</span>
+            <span className="block text-white">Saicharan</span>
             <span className="block bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
-              Ravi
+              Chetpelly
             </span>
           </h1>
 
           <p className="text-xl md:text-2xl text-gray-300 mb-4 font-light">
-            Cloud Engineer
+            Java Full Stack Developer
           </p>
 
           <p className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
-            Certified engineer working across cloud platforms, data, and applied AI to build systems that are reliable, scalable, and easy to operate. I take ownership of problems end to end, focus on automation and data driven decisions, and aim to deliver solutions that create measurable, real world impact.
+            Java Full Stack Developer with 3+ years of experience building and maintaining high-traffic, distributed web applications. Hands-on experience on enterprise-scale platforms like eBay, contributing to critical checkout and payment flows used by millions of users.
           </p>
 
           {/* Contact Info */}
           <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-12 text-gray-300">
+            <a href="mailto:saicharanchetpellydev@gmail.com" className="flex items-center gap-2 hover:text-blue-400 transition-colors">
+              <span>📧 saicharanchetpellydev@gmail.com</span>
+            </a>
+            <a href="tel:+919704276705" className="flex items-center gap-2 hover:text-blue-400 transition-colors">
+              <span>📱 +91 9704276705</span>
+            </a>
             <div className="flex items-center gap-2">
-              <span>📧 charangrcareers@gmail.com</span>
+              <span>📍 Hyderabad, India</span>
             </div>
-            <div className="flex items-center gap-2">
-              <span>📱 +353 89 220 0417</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <span>📍 Dublin, Ireland</span>
-            </div>
+            <a href="https://www.linkedin.com/in/chetpelly-saicharan/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-blue-400 transition-colors">
+              <span>LinkedIn</span>
+            </a>
           </div>
 
           {/* CTA Button */}

@@ -1,27 +1,16 @@
 const Education = () => {
   const education = [
     {
-      degree: "MSc Computing (Data Analytics)",
-      school: "Dublin City University",
-      period: "2024 – 2025",
-      grade: "2:1 Honours",
-      coursework: ["Data Analytics", "Machine Learning", "Big Data", "Database Systems", "Software Engineering", "Research Methods"],
-      logo: "DCU"
+      degree: "B.Tech in Information Technology",
+      school: "M.V.S.R College of Engineering",
+      period: "Jun 2019 – May 2023",
+      grade: "",
+      coursework: ["Operating Systems", "Computer Networks", "Database Management Systems", "Object-Oriented Programming"],
+      logo: "MVS"
     }
   ];
 
-  const certifications = [
-    {
-      name: "AWS Certified Solutions Architect – Associate",
-      details: "EC2, S3, RDS, VPC, IAM, Load Balancing, High Availability",
-      logo: "AWS"
-    },
-    {
-      name: "HashiCorp Terraform Associate",
-      details: "Infrastructure as Code, Providers, State, Modules, Workspaces, Plan/Apply",
-      logo: "TF"
-    }
-  ];
+  const certifications: { name: string; details: string; logo: string }[] = [];
 
   return (
     <section id="education" className="py-20 bg-gray-800">
@@ -31,8 +20,8 @@ const Education = () => {
             Education & Certifications
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            Academic excellence in computing and data analytics with industry-recognized 
-            certifications in cloud infrastructure and infrastructure as code
+            B.Tech in Information Technology with coursework in Operating Systems, 
+            Computer Networks, Database Management Systems, and Object-Oriented Programming
           </p>
         </div>
 
@@ -52,7 +41,7 @@ const Education = () => {
                 
                 <div className="text-right">
                   <p className="text-gray-300 font-medium">{edu.period}</p>
-                  <p className="text-green-400 font-semibold">{edu.grade}</p>
+                  {edu.grade && <p className="text-green-400 font-semibold">{edu.grade}</p>}
                 </div>
               </div>
 
@@ -74,25 +63,27 @@ const Education = () => {
             </div>
           ))}
 
-          {/* Certifications */}
-          <div className="mt-8">
-            <h3 className="text-2xl font-bold text-white mb-6 text-center">Certifications</h3>
-            <div className="grid md:grid-cols-2 gap-6">
-              {certifications.map((cert, index) => (
-                <div key={index} className="bg-gray-900 rounded-lg p-6 border border-gray-700 hover:border-blue-500 transition-all duration-300">
-                  <div className="flex items-center gap-4">
-                    <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-yellow-600 rounded-lg flex items-center justify-center text-white font-bold">
-                      {cert.logo}
-                    </div>
-                    <div>
-                      <h4 className="text-xl font-bold text-white">{cert.name}</h4>
-                      <p className="text-gray-400 text-sm">{cert.details}</p>
+          {/* Certifications - only show if present */}
+          {certifications.length > 0 && (
+            <div className="mt-8">
+              <h3 className="text-2xl font-bold text-white mb-6 text-center">Certifications</h3>
+              <div className="grid md:grid-cols-2 gap-6">
+                {certifications.map((cert, index) => (
+                  <div key={index} className="bg-gray-900 rounded-lg p-6 border border-gray-700 hover:border-blue-500 transition-all duration-300">
+                    <div className="flex items-center gap-4">
+                      <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-yellow-600 rounded-lg flex items-center justify-center text-white font-bold">
+                        {cert.logo}
+                      </div>
+                      <div>
+                        <h4 className="text-xl font-bold text-white">{cert.name}</h4>
+                        <p className="text-gray-400 text-sm">{cert.details}</p>
+                      </div>
                     </div>
                   </div>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
-          </div>
+          )}
         </div>
       </div>
     </section>

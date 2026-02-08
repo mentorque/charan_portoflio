@@ -1,28 +1,28 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Cloud, Code, Database, BarChart3 } from "lucide-react";
+import { Code, Cpu, Database, Layers } from "lucide-react";
 
 const About = () => {
   const skillCategories = [
     {
-      icon: <Cloud className="w-6 h-6" />,
-      title: "Cloud & Programming",
-      skills: ["Amazon Web Services (AWS)", "Azure", "Databricks", "Python", "SQL", "Shell Scripting", "REST APIs"]
+      icon: <Code className="w-6 h-6" />,
+      title: "Languages",
+      skills: ["Java", "TypeScript", "Python", "C++"]
     },
     {
-      icon: <Code className="w-6 h-6" />,
-      title: "DevOps & Platform Engineering",
-      skills: ["CI/CD", "Jenkins", "GitHub Actions", "Docker", "Kubernetes", "Terraform", "Provisioning"]
+      icon: <Layers className="w-6 h-6" />,
+      title: "Frameworks",
+      skills: ["Spring Boot", "Microservices Architecture", "RESTful APIs", "Maven", "Distributed Systems", "React"]
     },
     {
       icon: <Database className="w-6 h-6" />,
-      title: "Data Engineering & Analytics",
-      skills: ["Apache Spark", "Pandas", "NumPy", "Metrics and Log Analysis", "Data Pipelines"]
+      title: "Database",
+      skills: ["MySQL", "MongoDB", "Redis"]
     },
     {
-      icon: <BarChart3 className="w-6 h-6" />,
-      title: "Observability & Systems",
-      skills: ["Grafana", "Cloud Monitoring", "Linux", "Git", "Incident and Root-Cause Analysis", "Production Support"]
+      icon: <Cpu className="w-6 h-6" />,
+      title: "Core Concepts",
+      skills: ["Object-Oriented Design", "Design Patterns", "Data Structures & Algorithms"]
     }
   ];
 
@@ -39,22 +39,13 @@ const About = () => {
           {/* About Me */}
           <Card className="card-gradient border-primary/20 shadow-elevated">
             <CardContent className="p-8">
-              <h3 className="text-2xl font-bold mb-4 text-gradient">About Me</h3>
+              <h3 className="text-2xl font-bold mb-4 text-gradient">Professional Summary</h3>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  Based in Ireland, I am a data and cloud professional with nearly three years of experience working on enterprise scale platforms serving over 100000 users.
+                  Java Full Stack Developer with 3+ years of experience building and maintaining high-traffic, distributed web applications.
                 </p>
                 <p>
-                  My background combines data analytics, cloud engineering, and applied AI. I work extensively with SQL and Python to analyse large datasets, build reliable data pipelines, and translate complex data into clear and actionable insights for business and technical stakeholders. Alongside analytics, I have hands on experience with AWS and scalable data processing using Apache Spark.
-                </p>
-                <p>
-                  At Capgemini, I worked across analytics and operations focused projects, analysing usage patterns, performance metrics, and system behaviour to improve efficiency, reliability, and data driven decision making. My work supported KPI tracking, reporting automation, and analytics ready data modelling.
-                </p>
-                <p>
-                  During my Master's in Data Analytics at Dublin City University, I focused on AI driven analysis, working on projects involving large scale text data, risk analysis, and structured data transformation. I am particularly interested in applying data and AI in practical real world contexts.
-                </p>
-                <p>
-                  I am authorised to work in Ireland under Stamp 1G with no sponsorship required and I am seeking opportunities as a Data Analyst or Analytics focused Engineer.
+                  Hands-on experience working on enterprise-scale platforms like eBay, contributing to critical checkout and payment flows used by millions of users. Proficient in designing backend microservices using Spring Boot and developing responsive user interfaces with React, with a strong focus on scalability, reliability, and clean, maintainable code in Agile environments.
                 </p>
               </div>
             </CardContent>
